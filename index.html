@@ -1,63 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grace Kearns - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
 
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 1em;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2, p {
-            margin: 0;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 1em;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 0.5em;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -69,33 +22,268 @@
         <img src="profile-picture.jpg" alt="Grace Kearns - Profile Picture">
         <h2>About Me</h2>
         <p>
-           Hello and welcome to my portfolio page my name is Grace Kearns and I'd like to thank you for visiting this page.
+            Hello and welcome to my portfolio! I'm Grace Kearns, a dedicated Software Engineer based in Victoria,
+            Australia. With a passion for continuous improvement, I am committed to advancing my skills in software
+            development and expanding my toolkit to create innovative and efficient solutions. I hold a Bachelor's
+            degree in Computer Science and a Diploma in Information and Communication Technology, which have equipped me
+            with a strong foundation for tackling a wide range of software engineering challenges. Explore my portfolio
+            to see some of the projects and skills I've developed on my journey as a software engineer.
         </p>
 
         <h2>Programming Languages</h2>
         <ul>
-            <li>C - Mostly used throughout university to learn about pointers/stacks/queues.</li>
-            <li>C# - Used as a primary development language for developing games using Unity, used during university to learn about the fundementals of OOP (object orientated programming). </li>
-            <li>JavaScript - Used as a means to for creating video games, web-applications, backend servers, and APIs.</li>
-            <li>TypeScript - Used to create APIs with NestJS</li>
-            <li>Python - Used for developing AI models such as license plate recognition, object recognition, and PPE (personal protection equipment) recognition as well as creating standalone applications</li>
-            <li>Lua - Used for in-game modding</li>
-            <li>HTML - Website fundemental</li>
-            <li>CSS - Website fundemental</li>
-            <li>C++ - Mostly used throughout university to learn about pointers/stacks/queues </li>
+            <li class="slide-in">
+                <b>C</b> - My foundational language during my university education, where I delved into topics like
+                pointers, stacks, and queues.
+            </li>
+            <li class="slide-in"> 
+                <b> C# </b> - I honed my skills with C# as my primary language, using it extensively for game
+                development in Unity, and gaining expertise in the fundamentals of Object-Oriented Programming (OOP).
+            </li>
+            <li class="slide-in">
+                <b> Javascript</b> - I've leveraged JavaScript for diverse applications, including creating video games,
+                web applications, backend servers, and APIs.
+            </li>
+            <li class="slide-in">
+                <b> Typescript </b> - I used TypeScript to craft robust APIs with NestJS, a testament to my commitment
+                to building scalable and maintainable software.
+            </li>
+            <li class="slide-in">
+                <b> Python </b> - My journey with Python has seen me develop AI models for tasks like license plate
+                recognition, object recognition, and personal protective equipment (PPE) recognition, as well as
+                creating standalone applications.
+            </li>
+            <li class="slide-in">
+                <b> Lua </b>- Employed for in-game modding, Lua showcases my adaptability in working with different
+                technologies.
+            </li>
+            <li class="slide-in">
+                <b>HTML and CSS </b>: These form the cornerstone of web development, allowing me to shape and design
+                fundamental website structures.
+            </li>
+            <li class="slide-in">
+                <b>C++ </b> - My continued exploration of C++ during my academic journey deepened my understanding of
+                concepts such as pointers, stacks, and queues, reinforcing my core programming skills.
+            </li>
         </ul>
+        <h2>Architecture I've worked with:</h2>
+        <div id="programmingToolsSection">
+            <div class="programmingToolsRow fade-in">
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/amazon.png" />
+                    </div>
+                    <p class="programmingToolsText">Amazon</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/azure.png" />
+                    </div>
+                    <p class="programmingToolsText">Azure</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/couchbase.png" />
+                    </div>
+                    <p class="programmingToolsText">Couchbase</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/Deepstream.png" />
+                    </div>
+                    <p class="programmingToolsText">Deepstream</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/docker.png" />
+                    </div>
+                    <p class="programmingToolsText">Docker</p>
+                </div>
+            </div>
+            <div class="programmingToolsRow fade-in">
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/dot net.png" />
+                    </div>
+                    <p class="programmingToolsText">.NET</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/expo.png" />
+                    </div>
+                    <p class="programmingToolsText">Expo</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/express-js.png" />
+                    </div>
+                    <p class="programmingToolsText">Express.js</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/firebase.png" />
+                    </div>
+                    <p class="programmingToolsText">Firebase</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/flask.png" />
+                    </div>
+                    <p class="programmingToolsText">Flask</p>
+                </div>
+            </div>
+            <div class="programmingToolsRow fade-in">
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/laravel.png" />
+                    </div>
+                    <p class="programmingToolsText">Laravel</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/mongodb.png" />
+                    </div>
+                    <p class="programmingToolsText">Mongodb</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/nestjs.png" />
+                    </div>
+                    <p class="programmingToolsText">NestJS</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/node.png" />
+                    </div>
+                    <p class="programmingToolsText">Node</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/postgresql.png" />
+                    </div>
+                    <p class="programmingToolsText">PostgreSQL</p>
+                </div>
+            </div>
+            <div class="programmingToolsRow fade-in">
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/postman.png" />
+                    </div>
+                    <p class="programmingToolsText">Postman</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/rabbitmq.png" />
+                    </div>
+                    <p class="programmingToolsText">RabbitMQ</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/react.png" />
+                    </div>
+                    <p class="programmingToolsText">React</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/rpgmaker.png" />
+                    </div>
+                    <p class="programmingToolsText">RPGMaker</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/swagger.png" />
+                    </div>
+                    <p class="programmingToolsText">Swagger</p>
+                </div>
+            </div>
+            <div class="programmingToolsRow fade-in">
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/unity.png" />
+                    </div>
+                    <p class="programmingToolsText">Unity</p>
+                </div>
+                <div>
+                    <div class="programmingToolsImgContainer">
+                        <img class="programmingToolsImg" src="img/unreal.png" />
+                    </div>
+                    <p class="programmingToolsText">Unreal</p>
+                </div>
+            </div>
+
+        </div>
         <h2>Projects</h2>
         <ul>
-            <li><a href="https://github.com/gracekearns/project1">Project 1</a> - Description of Project 1.</li>
-            <li><a href="https://github.com/gracekearns/project2">Project 2</a> - Description of Project 2.</li>
-            <!-- Add more projects as needed -->
+            <h3>Word Guess</h3>
+            <p>"Word Guess" is a captivating mobile application inspired by the classic game WORDLE. However, it offers
+                a unique twist: instead of guessing a five-letter word, players are presented with a word's definition
+                and tasked with deducing the corresponding word. This engaging word game challenges users to apply their
+                vocabulary and problem-solving skills in an enjoyable and intellectually stimulating manner.</p>
+            <h3> Google Drive Backup</h3>
+            <p>"Google Drive Backup" A python desktop application that connects to a Google User's Google drive and
+                allows them make a backup locally on the user's desktop. This application broadens itself to download
+                multiple files at a time and can download entire folders in two clicks.</p>
+            <h3>Cloud Decision Tool</h3>
+            <p>The CDT (Cloud Decision Tool) Web tool is a front-end web application written on the React Javascript
+                Framework on top of the create-react-app environment. This tool was developed to allow users to gain an
+                understanding of their unknown cloud system requirements through a questionnaire process. Unknown
+                requirements of the system are inferred through our clients Case-Based Reasoning (CBR) algorithm.
+                The system is built with mostly the React and Material-UI frameworks that interact with the previously
+                developed CDT-CBR micro-service (for implementation of CBR technique) and a database (for storing of
+                various case data).</p>
+            <h2>Minor Projects</h2>
+            <h3>Discord Connect-4 bot</h3>
+            <p> The "Discord Connect 4" bot draws its inspiration from the classic board game, offering an engaging
+                adaptation of the original. This project's objective is to seamlessly integrate the beloved board game
+                into Discord servers, creating an enjoyable and social experience for users across different servers.
+            </p>
+            <h3>Souls Companion</h3>
+            <p> A Discord bot built using Discord.js with slash commands, pagination, and automatic command updates. The
+                primary use of this bot is to display all of the dark souls 1 wiki information with discord commands.
+            </p>
+
         </ul>
 
         <h2>Contact</h2>
         <p>
-            Feel free to reach out to me via email at <a href="mailto:kearnsgracebusiness@gmail.com">grace@example.com</a>.
+            Feel free to reach out to me via email at <a
+                href="mailto:kearnsgracebusiness@gmail.com">Kearnsgracebusiness@gmail.com</a>.
         </p>
     </section>
 
 </body>
+<script>
+    // Function to check if an element is in the viewport
+    function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        );
+    }
+
+    // Function to handle the scroll event
+    function handleScroll() {
+        const programmingToolsRows = document.querySelectorAll('.programmingToolsRow');
+        const listRows = document.querySelectorAll('li');
+        programmingToolsRows.forEach((row) => {
+            if (isInViewport(row) && !row.classList.contains('active')) {
+                row.classList.add('active');
+            } else if (!isInViewport(row) && row.classList.contains('active')) {
+                row.classList.remove('active');
+            }
+        });
+        listRows.forEach((row) => {
+            console.log("test")
+            if (isInViewport(row) && !row.classList.contains('active')) {
+                row.classList.add('active');
+            } else if (!isInViewport(row) && row.classList.contains('active')) {
+                row.classList.remove('active');
+            }
+        });
+    }
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+</script>
+
 </html>
