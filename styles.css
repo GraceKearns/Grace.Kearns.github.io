@@ -88,7 +88,7 @@ a:hover {
     height:100px;
 }
 .wordGuess {
-    display:flex; 
+    display:flex !important;
     
 }
 .pro2image {
