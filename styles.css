@@ -89,8 +89,9 @@ a:hover {
 }
 .wordGuess {
     display:flex; 
+    
 }
 .pro2image {
-    width:"50%";
+    width:"40%";
     margin:1%;
 }
