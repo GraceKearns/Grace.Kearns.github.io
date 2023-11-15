@@ -87,3 +87,10 @@ a:hover {
     width:100px;
     height:100px;
 }
+.wordGuess {
+    display:flex; 
+}
+.pro2image {
+    width:"50%";
+    margin:1%;
+}
